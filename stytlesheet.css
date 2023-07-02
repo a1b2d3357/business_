@@ -2,9 +2,6 @@
 body{
     font-family: 'Roboto';
 }
-div{
-    border: 5px solid;
-}
 
 #logo {
     margin-right: auto;
@@ -76,6 +73,7 @@ img{
     width: 120px;
     height: 120px;
     color: #3882F6;
+    border: 2px solid #3882F6;
     border-radius: 10%;
 }
 
@@ -106,15 +104,36 @@ img{
 
 .call{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    background-color: #3882F6;
+    border-radius: 10%;
+    width: 700px;
+    gap: 100px;
+    height: 90px;
+}
+
+.call .in{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #f #b{
-    margin-top: 36px;
+    margin-top: 30px;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 25px;
+    width: 100px;
+    height: 25px;
+    
 }
 
 #Copy{
     display: flex;
     justify-content: center;
+    background-color: #1F2937;
+    width: 100%;
+    color: #E5E7EB;
+    
 }
